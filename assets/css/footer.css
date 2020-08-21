@@ -1,0 +1,23 @@
+footer {
+  background: black;
+}
+footer .social-list {
+  font-size: 3em;
+  text-align: center;
+  padding: 0.2em 0.7em;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  display: flex;
+  list-style: none;
+  color: grey;
+}
+
+.social-list__item {
+  margin: 0 0.5em;
+}
+
+.social-list a:hover i {
+  color: whitesmoke;
+  transform: translate(0, -5px);
+}
